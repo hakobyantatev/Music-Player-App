@@ -1,0 +1,67 @@
+.PlayAllButton {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.right {
+  display: flex;
+  width: 50%;
+  justify-content: end;
+  gap: 10px;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  width: 50%;
+  gap: 10px;
+  align-items: center;
+}
+
+.buttons {
+  margin: 0 auto;
+  width: 80%;
+  background-color: rgb(183, 183, 183);
+  padding: .5em;
+  border-radius: 5px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.btn {
+  display: flex;
+  gap: 5px;
+  padding: 10px 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter {
+  width: 40%;
+  border: none;
+  border-radius: 50px;
+}
+
+
+@media screen and (max-width: 670px){
+  .right{
+    width: 100%;
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+    flex-direction: column;
+  }
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .buttons {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

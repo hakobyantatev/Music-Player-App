@@ -1,0 +1,19 @@
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 80%;
+}
+
+th {
+  border: 2px solid white;
+  padding: 10px 20px;
+  text-align: left;
+  background-color: rgb(221, 221, 221);
+  color: rgb(93, 93, 93);
+}
+
+@media screen and (max-width: 500px){
+  table {
+    width: 100%;
+  }
+}

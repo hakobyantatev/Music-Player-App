@@ -1,0 +1,39 @@
+tr {
+  &:hover {
+    background-color: rgba(139, 139, 139, 0.6);
+    transition: .3s;
+  }
+}
+ 
+td {
+  border-bottom: 1px solid rgb(221, 221, 221);
+  padding: 10px 20px;
+  text-align: left;
+}
+
+.play {
+  color: rgb(93, 93, 93);
+  cursor: pointer;
+}
+
+.pause {
+  cursor: pointer;
+}
+
+.icons > svg {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.icons >svg.active {
+  color: rgb(201, 0, 0);
+}
+
+
+@media screen and (max-width: 800px){
+  .icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
